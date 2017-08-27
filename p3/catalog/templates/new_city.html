@@ -1,0 +1,19 @@
+{% extends "layouts.html" %}
+{% block content %}
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<h3>{{ messages }}<h3>
+{% endif %}
+{% endwith %}
+<h1>creating new city</h1>
+<br>
+<form action="{{ url_for('add_city1',ids=ids)}}" method="POST">
+Name: 
+<input type=text name=names id=name placeholder="Enter name here..."><br><br>
+State:
+<input type=text name=state id=state placeholder="Enter state here..."><br><br><br>
+Description:
+<textarea rows="4" cols="60" name=description id=description placeholder="Enter description.."></textarea><br><br>
+<input type=submit value=create>
+</form>
+{% endblock %}
