@@ -1,2 +1,2 @@
 # Full-Stack 
-## projects included in udacity's full stack developement course
+## This contains my projects done during Udacity's Full Stack Developement Nanodegree.
