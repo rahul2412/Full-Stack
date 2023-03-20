@@ -1,2 +1,2 @@
-# Full-Stack 
-### This contains my projects done during Udacity's Full Stack Developement Nanodegree.
+# Full-Stack Web Development
+This contains my projects done during Udacity's Full Stack Developement Nanodegree.
